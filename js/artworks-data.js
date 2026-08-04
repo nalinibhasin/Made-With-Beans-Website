@@ -74,7 +74,7 @@ const ARTWORKS = [
     title: "Peacock Kalamkari",
     medium: "Coffee on cotton sheet",
     dims: "29.7x42cm",
-    image: "images/art-peacock-kalamkari.JPG",
+    image: "images/art-peacock-kalamkari.jpg",
     availability: "available",
     description: ""
   },

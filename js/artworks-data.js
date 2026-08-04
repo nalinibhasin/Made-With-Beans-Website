@@ -147,7 +147,7 @@ const ARTWORKS = [
     medium: "Coffee on paper",
     dims: "14.7x10cm",
     image: "images/art-coffeeFriends.jpg",
-    availability: "prints-only",
+    availability: "available",
     description: ""
   },
   {
@@ -165,7 +165,7 @@ const ARTWORKS = [
     medium: "Coffee on paper",
     dims: "9.4x9.4cm",
     image: "images/art-bearyChristmas.jpg",
-    availability: "available",
+    availability: "prints-only",
     description: ""
   },
   {

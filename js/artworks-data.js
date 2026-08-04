@@ -16,6 +16,15 @@ const ARTWORKS = [
     description: ""
   },
   {
+    id: "peacockKalamkari",
+    title: "Peacock Kalamkari",
+    medium: "Coffee on cotton sheet",
+    dims: "29.7x42cm",
+    image: "images/art-peacock-kalamkari.jpg",
+    availability: "available",
+    description: ""
+  },
+  {
     id: "bonneh",
     title: "Bunny Beans",
     medium: "Coffee on paper",
@@ -66,15 +75,6 @@ const ARTWORKS = [
     medium: "Coffee on paper",
     dims: "14.7x10.5cm",
     image: "images/art-raksha-bandhan.jpg",
-    availability: "available",
-    description: ""
-  },
-  {
-    id: "peacockKalamkari",
-    title: "Peacock Kalamkari",
-    medium: "Coffee on cotton sheet",
-    dims: "29.7x42cm",
-    image: "images/art-peacock-kalamkari.jpg",
     availability: "available",
     description: ""
   },

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commissions — Made with Beans</title>
+  <meta name="description" content="Commission a custom coffee painting. Share your idea, review a sketch, and receive your finished piece.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+      <div class="header-left">
+        <a href="index.html" class="back-btn" aria-label="Go back to Home">←</a>
+        <a href="index.html" class="logo-link">
+          <span class="logo-mark">
+            <img src="images/logoLight.png" alt="Made with Beans Logo">
+         </span>
+        </a>
+      </div>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Coffee Gallery</a>
+        <a href="commissions.html">Commissions</a>
+        <a href="about.html">Meet The Artist</a>
+      </nav>
+      <button class="burger-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- ===== BURGER MENU ===== -->
+    <div class="menu-overlay"></div>
+    <nav class="menu-panel" aria-label="Site navigation">
+      <div class="menu-panel-header">
+        <span class="menu-title">Menu</span>
+        <button class="menu-close" aria-label="Close menu">✕</button>
+      </div>
+      <ul class="menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Coffee Gallery</a></li>
+        <li><a href="commissions.html">Commissions</a></li>
+        <li><a href="about.html">Meet the Artist</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== PREVIOUS COMMISSION SHOWCASE ===== -->
+    <div class="page-title-bar">
+        <h1>Previous Commissions</h1>
+    </div>
+
+    <section class="commission-hero reveal full-bleed">
+        <div class="commission-hero-frame">
+            <div class="conveyor-track" id="conveyorTrack"></div>
+        </div>
+    </section>
+
+    <!-- ===== WANT YOUR OWN / STEPS ===== -->
+    <section class="commissions-section reveal">
+      <h2>Want your own?</h2>
+      <p class="tagline">Something specific in mind? Let's make it.</p>
+      <div class="steps">
+        <div class="step">
+          <h3>Step 1 : Get in touch</h3>
+          <p>Share your idea and references</p>
+        </div>
+        <div class="step">
+          <h3>Step 2 : Review sketch</h3>
+          <p>Approve before full work begins</p>
+        </div>
+        <div class="step">
+          <h3>Step 3 : Receive your art</h3>
+          <p>Shipped carefully or collected</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PACKAGING PHOTO ===== -->
+    <div class="about-photo secondary reveal">
+      <img src="images/commission-packaging.jpg" alt="A finished commission carefully packaged with kraft paper, sitting beside coffee beans and a finished painting">
+    </div>
+
+
+    <!-- ===== COMMISSIONS TEASER ===== -->
+    <section class="commissions-section reveal">
+      <h2>Want a custom brew?</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>Step 1 : Get in touch</h3>
+          <p>Share your idea and references</p>
+        </div>
+        <div class="step">
+          <h3>Step 2 : Review sketch</h3>
+          <p>Approve before full work begins</p>
+        </div>
+        <div class="step">
+          <h3>Step 3 : Receive your art</h3>
+          <p>Shipped carefully or collected</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FIND US ===== -->
+    <section class="contact-section reveal">
+      <h2>Let's to connect?</h2>
+      <p class="tagline">Drop a message on instagram, Let's chat over a coffee!</p>
+      <div class="contact-links">
+        <a href="https://instagram.com/made.with.beans" class="contact-icon-link" target="_blank" rel="noopener">
+          <span class="icon-circle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </span>
+          <span>@made.with.beans</span>
+        </a>
+        <a href="mailto:coffee@madewithbeans.com" class="contact-icon-link">
+          <span class="icon-circle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>
+          </span>
+          <span>coffee@madewithbeans.com</span>
+        </a>
+      </div>
+    </section>
+
+ 
+    <!-- ===== COMMISSION REQUEST FORM ===== 
+    
+    <section class="commission-form-section reveal">
+      <h2>Get in touch</h2>
+      <p class="tagline">We'd love to hear from you — commissions, questions, or just say hello.</p>
+
+      <!--
+        FORM SETUP NOTE:
+        This form posts to Formspree (a free service that forwards
+        submissions straight to your email — no backend needed).
+        To activate it:
+          1. Go to https://formspree.io and sign up free
+          2. Create a new form, set the destination to coffee@madewithbeans.com
+          3. Replace YOUR_FORM_ID below with the ID Formspree gives you
+        Until then, the form will show an error — that's expected.
+      -->
+      <!--
+      <form class="commission-form" id="commissionForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Tell us about your idea</label>
+          <span class="hint">Subject, mood, references — anything that helps us picture it.</span>
+          <textarea id="description" name="description" required placeholder="e.g. A portrait of my dog Max, looking up, warm and playful..."></textarea>
+        </div>
+      -->
+  <!--
+        <div class="form-group">
+          <label for="reference">Reference image (optional)</label>
+          <div class="file-drop" id="fileDropZone">
+            <span id="fileDropLabel">Tap to upload a reference photo</span>
+            <span class="file-name" id="fileNameDisplay"></span>
+            <input type="file" id="reference" name="reference" accept="image/*">
+          </div>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submitBtn">Send request</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  -->
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      © 2026 Made with Beans by Nalini Bhasin.
+      All rights reserved. No artwork on this website may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the copyright owner.
+
+    </footer>
+
+  </div>
+
+  <script src="js/commission-images.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/commission-form.js"></script>
+</body>
+</html>

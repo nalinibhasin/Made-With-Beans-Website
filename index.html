@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Made with Beans — Coffee Art</title>
+  <meta name="description" content="Original art made with coffee on watercolor paper. Browse the gallery or commission a custom piece.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+      <a href="index.html" class="logo-link">
+        <span class="logo-mark">
+          <img src="images/logoLight.png" alt="Made with Beans Logo">
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Coffee Gallery</a>
+        <a href="commissions.html">Commissions</a>
+        <a href="about.html">Meet The Artist</a>
+      </nav>
+      <button class="burger-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- ===== BURGER MENU ===== -->
+    <div class="menu-overlay"></div>
+    <nav class="menu-panel" aria-label="Site navigation">
+      <div class="menu-panel-header">
+        <span class="menu-title">Menu</span>
+        <button class="menu-close" aria-label="Close menu">✕</button>
+      </div>
+      <ul class="menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Coffee Gallery</a></li>
+        <li><a href="commissions.html">Commissions</a></li>
+        <li><a href="about.html">Meet the Artist</a></li>
+      </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <img src="images/hero-coffee-table.jpg" alt="Coffee cup and a coffee painting laid on a wooden table, surrounded by coffee beans">
+    </section>
+
+    <!-- ===== FEATURED PIECE ===== -->
+      <section class="featured reveal">
+        <div class="featured-frame">
+          <img
+            id="featuredImage"
+            src="images/art-bunny.jpg"
+            alt="Coffee painting of a rabbit sitting in grass, titled Bunny">
+        </div>
+       <a href="gallery.html" class="link-cta">View full gallery →</a>
+      </section>
+
+    <!-- ===== COMMISSIONS TEASER ===== -->
+    <section class="commissions-section reveal">
+      <h2>Want a custom brew?</h2>
+      <div class="steps">
+        <div class="step">
+          <h3>Step 1 : Get in touch</h3>
+          <p>Share your idea and references</p>
+        </div>
+        <div class="step">
+          <h3>Step 2 : Review sketch</h3>
+          <p>Approve before full work begins</p>
+        </div>
+        <div class="step">
+          <h3>Step 3 : Receive your art</h3>
+          <p>Shipped carefully or collected</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FIND US ===== -->
+    <section class="contact-section reveal">
+      <h2>Let's to connect?</h2>
+      <p class="tagline">Drop a message on instagram, Let's chat over a coffee!</p>
+      <div class="contact-links">
+        <a href="https://instagram.com/made.with.beans" class="contact-icon-link" target="_blank" rel="noopener">
+          <span class="icon-circle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          </span>
+          <span>@made.with.beans</span>
+        </a>
+        <a href="mailto:coffee@madewithbeans.com" class="contact-icon-link">
+          <span class="icon-circle" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 6 10 7 10-7"/></svg>
+          </span>
+          <span>coffee@madewithbeans.com</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      © 2026 Made with Beans by Nalini Bhasin.
+      All rights reserved. No artwork on this website may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the copyright owner.
+
+    </footer>
+
+  </div>
+
+  <script src="js/artworks-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
